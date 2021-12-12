@@ -1,0 +1,91 @@
+body {
+    margin: 100px;
+    margin-top: 0px;
+    background-color: rgba(138, 132, 132, 0.849);
+  }
+  h3 {
+    padding-top: 100px;
+    color: rgb(11, 85, 119);
+    font-size: 30px;
+    text-align: center;
+  }
+  .about{
+      display: flex;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table thead{
+      background-color: rgb(14, 140, 224);
+  }
+  th, td {
+    text-align:left !important;
+    border: 1px solid #444444;
+    padding: 10px;
+  }
+  .소제목{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/covid19.jpg);
+    padding: 8px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .navbar_logo{
+    font-size: 20px;
+    color: rgb(220, 223, 233);
+  }
+  .navbar_link{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .navbar_link li{
+    font-weight: bold;
+    padding: 8px 125px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+
+  }
+  .navbar_link li a{
+    text-decoration: none;
+    color: white;
+  }
+  .navbar_link li:hover{
+    font-size: 30px;
+  }
+  .navbar_button{
+    position:absolute;
+    right: 50px;
+    font-size: 24px;
+    color: #d49466;
+  }
+  @media screen and (max-width:1200px){
+    .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 50px;
+    }
+    .navbar_link{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .navbar_link li{
+      width: 100%;
+      text-align: center;
+    }
+  }
+
